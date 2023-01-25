@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fitxa Client | Hassan Shah</title>
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/mailing.css">
+        <script src="../js/mail.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </script>
+    </head>
+</head>
+<body>
+    <header>
+        <span>Elfos Software</span>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./llista_fitxes_clients.html" >Fitxes</a></li>
+            <li><a href="#" class="active">Mailing</a></li>
+        </ul>
+    </header>
+    <section>
+        <h1>Mailing</h1>
+        <div>
+            <span>Destinatari/s:</span>
+            <input type="text" id="receptor">
+        </div>
+        <div>
+            <span>Contingut del mail:</span>
+        <input type="text" id="mail" >
+        <!-- <textarea name=""  cols="30" rows="10" id="mail"></textarea> -->
+        </div>
+        <button type="submit" id="enviar" onclick="sendmail()">Enviar</button>
+    </section>
+    <footer>
+        <span>Elfos Software</span>
+        <p>All rights reserved</p>
+        <div>
+            <span>www.hassan.es</span>
+            <span>Tel. 651 48 65 43</span>
+            <span>info@hassan.es</span>
+        </div>
+    </footer>
+</body>
+</html>

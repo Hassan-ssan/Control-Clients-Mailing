@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/b857469b72.js" crossorigin="anonymous"></script>
+
+    <meta name="author" content="Hassan Shah">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitxes Proveidors | Hassan Shah </title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/llista_fitxes.css">
+    <script src="../js/createfitxa2.js"></script>
+</head>
+<body>
+    <header>
+        <span>Elfos Software</span>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="active">Fitxes</a></li>
+            <li><a href="./mailing.html">Mailing</a></li>
+        </ul>
+    </header>
+    <nav>
+        <a href="./llista_fitxes_clients.html">Clients</a>
+        <a href="#" class="active">Proveidors</a>
+        <a href="./llista_fitxes_potencials.html">Potencials</a>
+    </nav>
+    <section>
+        <div class="createFitxa">
+            <input type="text" id="fitxaTitol" placeholder="Nom de fitxa">
+            <button id="btnAdd">Crear nova fitxa</button>
+        </div>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nom</th>
+                    <th>Ult. modificació</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Proveidor 1</td>
+                    <td>13/04/23-13:20</td>
+                    <td class="buttons">
+                        <button><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button><i class="fa-regular fa-circle-down"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>

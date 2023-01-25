@@ -1,0 +1,36 @@
+
+
+/* ############# */
+/* ---Section--- */
+/* ############# */
+section{
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.fitxes{
+    width: 50%;
+    background: #E3DAD5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mailing{
+    width: 50%;
+    background: #E3DEDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section div a{
+    text-decoration: none;
+    background-color: grey;
+    color: #fff;
+    font-size: 2em;
+    padding: 4vw 8vw;
+}
+
+
+
