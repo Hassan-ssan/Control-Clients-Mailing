@@ -1,0 +1,69 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section .info{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.info > div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+section .info input{
+    padding: 15px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 10px;
+    background: #EDEDED;
+}
+
+.obs{
+    margin-top: 50px;
+width: 80vw;
+}
+
+.obs span{
+    display: block;
+}
+
+.obs textarea{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background: #EDEDED;
+
+}
+
+
+button{
+    margin-inline: 20px;
+    padding: 20px 40px;
+    background: var(--Scolor);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: var(--Pcolor);
+    color: black;
+    transition: .2s;
+    /* border: 1px solid black; */
+}
+
+.buttons{
+    margin-bottom: 100px;
+}
